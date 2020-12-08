@@ -7,7 +7,7 @@ Il faut écrire la fonction `palindrome` qui renvoie `1` si la chaine de caract�
 
 On pourra considérer qu'une chaine vide est un palindrome, de même qu'un caractère seul.
 
-On ne devra pas se soucier des accents, pour cet exercice ! (l'utilisateur écrira : « *E*sope reste ici et se repose » ou encore « La mari*e*e ira mal » )
+On ne devra pas se soucier des accents, pour cet exercice ! (l'utilisateur écrira : « **E**sope reste ici et se repose » ou encore « La mari**e**e ira mal » )
 
 ATTENTION! La fonction ne doit pas être sensible à la casse. La librairie `ctype.h` offre les fonctions `tolower` et `toupper` convertissant 1 caractère en minuscule ou majuscule. 
 
