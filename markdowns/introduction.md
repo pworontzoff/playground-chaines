@@ -10,11 +10,13 @@ Lien : https://www.youtube.com/watch?v=qqSHpG_UvQw
 
 ## Fonctions de traitement des chaînes de caractères
 
-Il existe plusieurs fonctions permettant de travailler avec des chaînes de caractères. Vous en trouverez quelques-unes ci-après.
+Il existe plusieurs fonctions permettant de travailler avec des chaînes de caractères. Vous en trouverez quelques-unes ci-après. (Toutes ces fonctions sont définies dans la librairie standard `string.h`.
 
 ### size_t strlen(const char* chaine);
 
 `strlen` est une fonction qui calcule la longueur d'une chaîne de caractères (sans compter le caractère `\0`).
+
+NB : le type `size_t` est définit dans `stdlib.h` et il est utilisé pour contenir une taille d'un objet (un vecteur, ...). Ce type garantit de pouvoir stocker un nombre suffisamment grand pour donner la taille du plus grand objet possible (différent, notamment, en fonction du système 32 bits ou 64 bits).
 
 ```C runnable
 #include <stdio.h>
@@ -87,11 +89,11 @@ int main()
 
 ### int strcmp(const char* chaine1, const char* chaine2);
 
-La fonction `strcmp` compare les chaine de caractères `chaine1` et `chaine2`. 
+La fonction `strcmp` compare les chaines de caractères `chaine1` et `chaine2`. 
 Elle renverra :
 - `0` si les chaînes sont identiques 
-- une valeur positive si la première est alphabétiquement après la seconde 
-- une valeur négative si la première est alphabétiquement avant la seconde 
+- une valeur positive si la première est alphabétiquement après la seconde (dans l'ordre définit par le jeu de caractère du compilateur) 
+- une valeur négative si la première est alphabétiquement avant la seconde (dans l'ordre définit par le jeu de caractère du compilateur)
 
 ```C runnable
 #include <stdio.h>
