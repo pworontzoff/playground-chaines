@@ -21,6 +21,6 @@ Quelques verbes : aimer - commencer - lever - amener - transférer - inquiéter 
 ## Pour aller plus loin _(facultatif)_
 
 On peut tenir compte de l'exception suivant :
-- Les verbes en `eler` ou `eter` double le `l` ou le `t` devant un `e` muet
+- Les verbes en `eler` ou `eter` doublent le `l` ou le `t` devant un `e` muet
 - il s'agit des cas où on écrit `e`, `es` et `ent`
 - Exemple de verbes : jeter - rappeler - étinceler - renouveler - épeler - atteler - feuilleter - pelleter - ensorceler - épousseter - empaqueter - hoqueter - ...
