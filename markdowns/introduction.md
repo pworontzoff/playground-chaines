@@ -102,14 +102,16 @@ Elle renverra :
 
 int main()
 {
-    char chaine1[15] = "Texte de test";
-	char chaine2[15] = "Texte de test";
+    char chaine1[15] = "Texte de test A";
+	char chaine2[15] = "Texte de test B";
 
-    if (strcmp(chaine1, chaine2) == 0) // Si chaînes identiques
-        printf("Les chaines sont identiques\n");
-    else {
-		printf("Les chaines sont differentes\n");
-	}
+    if (strcmp(chaine1, chaine2) < 0) { // Si chaîne 1 < chaîne 2
+        printf("La chaine 1 : '%s' est avant la chaine 2 : '%s'\n", chaine1, chaine2);
+    } else if (strcmp(chaine1, chaine2) < 0) { // Si chaîne 2 < chaîne 1
+        printf("La chaine 2 : '%s' est avant la chaine 1 : '%s'\n", chaine2, chaine1);
+	} else { // Si chaînes identiques
+        printf("La chaine 1 : '%s' est identique a la chaine 2 : '%s'\n", chaine1, chaine2);
+    }
     return 0;
 }
 ```
