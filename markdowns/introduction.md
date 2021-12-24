@@ -169,7 +169,7 @@ int main()
     }
 
     printf("Adresse de suite de chaîne : %p\n",suiteChaine);
-    printf("Adresse de suite de chaîne : %p\n",suiteChaine-chaine); //Pourra constater que l'indice du début de test est bien 9
+    printf("Indice de suite de chaîne : %d\n",suiteChaine-chaine); //Pourra constater que l'indice du début de test est bien 9
     return 0;
 }
 ```
