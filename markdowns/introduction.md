@@ -104,7 +104,7 @@ int main()
     return 0;
 }
 ```
-<br><br><br>
+<br /><hr />
 #### char* strcat(char* chaine1, const char* chaine2);
 
 La fonction `strcat` ajoute `chaine2` après la `chaine1` et stock le résultat dans chaine1.
@@ -130,7 +130,7 @@ int main()
     return 0;
 }
 ```
-
+<br /><hr />
 #### int strcmp(const char* chaine1, const char* chaine2);
 
 La fonction `strcmp` compare les chaines de caractères `chaine1` et `chaine2`. 
@@ -159,7 +159,7 @@ int main()
     return 0;
 }
 ```
-
+<br /><hr />
 #### char* strchr(const char* chaine, int caractereARechercher);
 
 La fonction `strchr` renvoie un pointeur vers la première occurence du caractère à rechercher qu'elle a trouvé, c'est-à-dire qu'elle renvoie l'adresse de ce caractère dans la mémoire. Elle renvoie `NULL` si elle n'a rien trouvé.
@@ -184,8 +184,7 @@ int main()
     return 0;
 }
 ```
-
-
+<br /><hr />
 #### char* strstr(const char* chaine, const char* chaineARechercher);
 
 La fonction `strstr` recherche la première occurrence d'une chaîne dans une autre chaîne.
@@ -217,7 +216,7 @@ int main()
     return 0;
 }
 ```
-
+<br /><hr />
 ### Quizz
 
 Afin de tester votre compréhension de la matière, complèter [ce questionnaire](https://goo.gl/forms/Kc5ByfHXXgewi9OV2)
