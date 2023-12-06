@@ -6,6 +6,31 @@ Pour réaliser ces exercices, vous veillerez également à employer les techniqu
 
 Sauf si l'énoncé permet d'encoder directement du code, cette série d'exercice est à résoudre avec Visual Studio.
 
+NB: on prendra soin d'utiliser `gets_s()` pour saisir correctement du texte ! Exemple :
+```c
+int main()
+{
+    char str[100] = "\0", ch[2] = "\0";
+
+    printf("Entrez un mot : ");
+    gets_s(str);
+
+    printf("Entrez une lettre : ");
+    gets_s(ch);
+
+    printf("Le mot : %s\n"
+           "la lettre : %c.", str, ch[0]);
+    return 0;
+}
+```
+qui donne, par exemple :
+```
+Entrez un mot : bonjour
+Entrez une lettre : b
+Le mot : bonjour
+la lettre : b.
+```
+
 ## Pour rappel
 Visual Studio est disponible gratuitement (https://ecolevirtuelle.provincedeliege.be/ctrl/ctrl_gestion.openDocument?p_idNode=1177603)
 
