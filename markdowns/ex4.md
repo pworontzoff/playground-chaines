@@ -11,5 +11,12 @@ Identifier et compter des séquences ADN est capital dans la recherche de certai
 
 ## A réaliser
 
-Écrire une fonction `sous_sequence` qui prend en argument deux chaînes de caractères représentant des brins d’ADN. La fonction va compter combien de fois le premier brin d'ADN se retrouve dans le second.
+Écrire un programme qui permet d'encoder deux chaînes de caractères représentant des brins d’ADN et qui va cafficher le nombre de fois que le premier brin d'ADN se retrouve dans le second.
+
+## Exemple
+
+sequence d'ADN a chercher = ACTG
+dans la sequence d'ADN = AACCTTACTACTGGGTCAAACADAGGGTACTGGTG
+
+La sequence ACTG se retrouve 2 fois dans la sequence AACCTTACTACTGGGTCAAACADAGGGTACTGGTG
 
