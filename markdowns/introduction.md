@@ -96,7 +96,7 @@ int main()
 <br /><hr />
 #### char* strcat(char* chaine1, const char* chaine2);
 
-La fonction `strcat` ajoute `chaine2` après la `chaine1` et stock le résultat dans chaine1.
+La fonction `strcat` ajoute `chaine2` après la `chaine1` et stock le résultat dans `chaine1`.
 
 ```C runnable
 #include <stdio.h>
