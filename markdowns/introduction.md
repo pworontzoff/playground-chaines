@@ -81,7 +81,7 @@ int main()
     return 0;
 }
 ```
-
+<br /><br /><br />
 #### char* strcpy(char* destination, const char* source);
 
 La fonction `strcpy` permet de copier une chaîne à l'intérieur d'une autre.
@@ -104,7 +104,7 @@ int main()
     return 0;
 }
 ```
-
+<br><br><br>
 #### char* strcat(char* chaine1, const char* chaine2);
 
 La fonction `strcat` ajoute `chaine2` après la `chaine1` et stock le résultat dans chaine1.
