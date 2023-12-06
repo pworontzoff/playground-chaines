@@ -17,8 +17,9 @@ Soyez attentifs à la découpe du programme en fonctions !
 
 ## Exemple
 
+```
 sequence d'ADN a chercher = ACTG
 dans la sequence d'ADN = AACCTTACTACTGGGTCAAACADAGGGTACTGGTG
 
 La sequence ACTG se retrouve 2 fois dans la sequence AACCTTACTACTGGGTCAAACADAGGGTACTGGTG
-
+```
