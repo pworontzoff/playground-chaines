@@ -44,6 +44,7 @@ Lien : https://www.youtube.com/watch?v=qqSHpG_UvQw
 
 Il existe plusieurs fonctions permettant de travailler avec des chaînes de caractères. Vous en trouverez quelques-unes ci-après. (Toutes ces fonctions sont définies dans la librairie standard `string.h`.
 
+<br /><hr />
 #### size_t strlen(const char* chaine);
 
 `strlen` est une fonction qui calcule la longueur d'une chaîne de caractères (sans compter le caractère `\0`).
