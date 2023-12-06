@@ -6,7 +6,7 @@ Soyez attentifs à la découpe du programme en fonctions !
 
 ## Exemple
 ```
-Entrez un mot : bonjour
+Entrez un mot : **bonjour**
 Quelle lettre voulez-vous retirer ? b
 Le mot restant est : onjour, il lui reste 6 lettre(s).
 Quelle lettre voulez-vous retirer ? n
