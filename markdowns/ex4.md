@@ -13,6 +13,8 @@ Identifier et compter des séquences ADN est capital dans la recherche de certai
 
 Écrire un programme qui permet d'encoder deux chaînes de caractères représentant des brins d’ADN et qui va cafficher le nombre de fois que le premier brin d'ADN se retrouve dans le second.
 
+Soyez attentifs à la découpe du programme en fonctions !
+
 ## Exemple
 
 sequence d'ADN a chercher = ACTG
