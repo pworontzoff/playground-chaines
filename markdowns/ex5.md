@@ -1,4 +1,4 @@
-# Exercice 5
+# Exercice 5  (facultatif)
 
 Ecrire un programme qui conjugue au présent de l’indicatif un verbe du premier groupe. 
 
