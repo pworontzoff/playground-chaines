@@ -1,18 +1,6 @@
 # Introduction
 
-Les exercices de cette séance portent sur les consultations et modifications de données d'un tableau à 2 dimensions (lignes et colonnes). Ceci en utilisant des fonctions qui utilisent la notation [][] afin d'accéder par indices aux cellules de tableaux.
-Les tableaux seront passés par paramètre aux fonctions via un pointeur "masqué" en utilisant la notation ```nomTab[][N]``` dans l'en-tête (et prototype) de la fonction, pour lui passer le tableau.
-+ ```nomTab``` est le nom du tableau
-+ ```N``` est le nombre de colonnes du tableau.
-+ **pour appeler la fonction f qui manipule le tableau ```nomTab``` :**
-
-```c
-f(nomTab, nl, nc); //nl et nc = nombre de lignes et de colonnes réellement utilisées
-```
-
-Pour ces exercices, on travaille à l’aide d’un tableau (à 2 dimensions) d’entiers **t** de taille 10x10 et de deux entiers **m** et **n** dont l’utilisateur choisit les valeurs (<= 10). L’entier **m** donnant le nombre de lignes et l’entier **n** donnant le nombre de colonnes **effectivement utilisées**. On n'utilise donc bien **qu'une partie** du tableau (ou tout le tableau dans le cas où m = n = 10).
-
-**! On devra prendre soin de définir 10 (= taille max du tableau, lignes et colonnes) à l’aide d’un `#define`.**
+Les exercices de cette séance portent sur les affichages et manipulations de chaînes de caractères.
 
 Pour réaliser ces exercices, vous veillerez également à employer les techniques vues lors des précédentes séances.
 
