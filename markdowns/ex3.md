@@ -21,7 +21,7 @@ int main()
     return 0;
 }
 ```
-qui donne :
+qui donne, par exemple :
 ```
 Entrez un mot : bonjour
 Entrez une lettre : b
