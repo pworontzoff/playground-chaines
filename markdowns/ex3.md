@@ -1,6 +1,6 @@
 # Exercice 3
 
-Ecrire un programme qui permet de supprimer une à une toutes les lettres d'une chaîne de caractère.
+Ecrire un programme qui permet de supprimer une à une toutes les lettres d'un mot (chaîne de caractères).
 
 Soyez attentifs à la découpe du programme en fonctions !
 
