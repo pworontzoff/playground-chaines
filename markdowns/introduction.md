@@ -8,6 +8,11 @@ Sauf si l'énoncé permet d'encoder directement du code, cette série d'exercice
 
 NB: on prendra soin d'utiliser `gets_s()` pour saisir correctement du texte ! Exemple :
 ```c
+#pragma warning(disable:4996)
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 int main()
 {
     char str[100] = "\0", ch[2] = "\0";
