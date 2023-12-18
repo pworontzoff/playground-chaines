@@ -18,10 +18,10 @@ int main()
     char str[100] = "\0", ch[2] = "\0";
 
     printf("Entrez un mot : ");
-    gets_s(str);
+    gets_s(str,100); //saisie clavier stockée dans str qui est un vecteur de 100 char
 
     printf("Entrez une lettre : ");
-    gets_s(ch);
+    gets_s(ch,100);
 
     printf("Le mot : %s\n"
            "la lettre : %c.", str, ch[0]);
