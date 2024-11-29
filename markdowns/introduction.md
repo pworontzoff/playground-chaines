@@ -5,7 +5,7 @@ Les exercices de cette séance portent sur les affichages et manipulations de ch
 Pour réaliser ces exercices, vous veillerez également à employer les techniques vues lors des précédentes séances.
 
 Sauf si l'énoncé permet d'encoder directement du code, cette série d'exercice est à résoudre avec Visual Studio.
-
+<!--
 NB: on prendra soin d'utiliser `gets_s()` pour saisir correctement du texte ! Exemple :
 ```c
 #pragma warning(disable:4996)
@@ -35,7 +35,7 @@ Entrez une lettre : b
 Le mot : bonjour
 la lettre : b.
 ```
-
+-->
 ## Pour rappel
 Visual Studio est disponible gratuitement (https://ecolevirtuelle.provincedeliege.be/ctrl/ctrl_gestion.openDocument?p_idNode=1177603)
 
