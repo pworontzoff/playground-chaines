@@ -4,7 +4,7 @@ Ecrire un programme qui permet de supprimer une à une toutes les lettres d'un m
 
 Soyez attentifs à la découpe du programme en fonctions !
 
-Les fonctions qui manipulent des chaînes de caractères doivent le faire **en utilisant les pointeurs explicitement (i.e. sans utiliser de [])** :
+**! Les fonctions qui manipulent des chaînes de caractères doivent le faire en utilisant les pointeurs explicitement (i.e. sans utiliser de [])**
 
 ## Exemple
 ```
