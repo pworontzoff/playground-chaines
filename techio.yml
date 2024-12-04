@@ -18,6 +18,11 @@ projects:
     runner:
       name: techio/cmake-gcc-runner
       version: latest
+  strlength2:
+    root: /strlength2
+    runner:
+      name: techio/cmake-gcc-runner
+      version: latest
   palindrome:
     root: /palindrome
     runner:
