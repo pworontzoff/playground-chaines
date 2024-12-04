@@ -6,4 +6,4 @@ A) Il faut écrire la fonction `strlength` qui renvoie la taille d'une chaine de
 
 B) Idem mais dans cette fonction :
 
-@[strlength]({"stubs": ["strlength2.h"],"command": "sh /project/target/run.sh test_strlength2","project": "strlength"})
+@[strlength2]({"stubs": ["strlength.h"],"command": "sh /project/target/run.sh test_strlength","project": "strlength2"})
