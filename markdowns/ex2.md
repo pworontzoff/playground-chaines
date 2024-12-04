@@ -15,6 +15,6 @@ La librairie est déjà incluse pas besoin de l'ajouter. [Référence `ctype.h`]
 
 @[palindrome]({"stubs": ["palindrome.h"],"command": "sh /project/target/run.sh test_palindrome","project": "palindrome"})
 
-B) Idem mais dans cette fonction :
+B) Idem mais dans cette fonction, **en utilisant les pointeurs explicitement (i.e. sans utiliser de [])** :
 
 @[palindrome2]({"stubs": ["palindrome.h"],"command": "sh /project/target/run.sh test_palindrome","project": "palindrome2"})
