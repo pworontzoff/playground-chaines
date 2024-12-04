@@ -28,3 +28,8 @@ projects:
     runner:
       name: techio/cmake-gcc-runner
       version: latest
+  palindrome2:
+    root: /palindrome2
+    runner:
+      name: techio/cmake-gcc-runner
+      version: latest
