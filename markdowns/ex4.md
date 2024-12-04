@@ -15,6 +15,8 @@ Identifier et compter des séquences ADN est capital dans la recherche de certai
 
 Soyez attentifs à la découpe du programme en fonctions !
 
+**! Les fonctions qui manipulent des chaînes de caractères doivent le faire en utilisant les pointeurs explicitement (i.e. sans utiliser de [])**
+
 ## Exemple
 
 ```
