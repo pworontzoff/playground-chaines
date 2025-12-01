@@ -1,10 +1,10 @@
-# Exercice 5  (facultatif)
+# Exercice 5
 
-Ecrire un programme qui conjugue au présent de l’indicatif un verbe du premier groupe. 
+## Partie A) Ecrire un programme qui conjugue au présent de l’indicatif un verbe du premier groupe. 
 
 Il s'agit des verbes régulier se termiant en "er".
 
-## Exemple : Le verbe présenter
+### Exemple : Le verbe présenter
 |Sujet|Verbe|Terminaison|Résultat|
 |-----|-----|-----------|--------|
 |Je|présent|e|Je présente|
@@ -16,15 +16,14 @@ Il s'agit des verbes régulier se termiant en "er".
 
 Quelques verbes : aimer - commencer - lever - amener - transférer - inquiéter - manger - assiéger - ...
 
----
+## Partie B) Conjugaisons stockées dans un tableau
 
-## Pour aller plus loin _(facultatif)_
+On prévoit de stocker le verbe conjugué dans un tableau de caractères à 2 dimensions de 6 lignes, dont chaque ligne est une des 6 formes conjuguées.
+
+## Partie C) tenant compte des exceptions _(facultatif)_
 
 On peut tenir compte de l'exception suivant :
 - Les verbes en `eler` ou `eter` doublent le `l` ou le `t` devant un `e` muet
 - il s'agit des cas où on écrit `e`, `es` et `ent`
 - Exemple de verbes : jeter - rappeler - étinceler - renouveler - épeler - atteler - feuilleter - pelleter - ensorceler - épousseter - empaqueter - hoqueter - ...
 
-## Pour aller toujours plus loin _(facultatif)_
-
-On prévoit de stocker le verbe conjugué dans un tableau de caractères à 2 dimensions de 6 lignes, dont chaque ligne est une des 6 formes conjuguées.
