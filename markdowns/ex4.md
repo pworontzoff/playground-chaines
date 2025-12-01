@@ -1,4 +1,4 @@
-# Exercice 4
+# Exercice 4 (facultatif)
 
 L'acide désoxyribonucléique ou ADN est une macromolécule biologique présente dans toutes les cellules ainsi que chez de nombreux virus. L'ADN contient toute l'information génétique permettant le développement, le fonctionnement et la reproduction des êtres vivants. 
 
