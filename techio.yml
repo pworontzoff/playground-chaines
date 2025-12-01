@@ -8,9 +8,9 @@ plan:
   statement: markdowns/ex2.md
 - title: Exercice 3
   statement: markdowns/ex3.md
-- title: Exercice 4
+- title: Exercice 4 (facultatif)
   statement: markdowns/ex4.md
-- title: Exercice 5 (facultatif)
+- title: Exercice 5
   statement: markdowns/ex5.md
 projects:
   strlength:
