@@ -155,8 +155,8 @@ int main()
 La fonction `strcmp` compare les chaines de caractères `chaine1` et `chaine2`. 
 Elle renverra :
 - `0` si les chaînes sont identiques 
-- une valeur positive si la première est alphabétiquement après la seconde (dans l'ordre définit par le jeu de caractère du compilateur) 
-- une valeur négative si la première est alphabétiquement avant la seconde (dans l'ordre définit par le jeu de caractère du compilateur)
+- une valeur positive si la première est alphabétiquement avant la seconde (dans l'ordre définit par le jeu de caractère du compilateur) 
+- une valeur négative si la première est alphabétiquement après la seconde (dans l'ordre définit par le jeu de caractère du compilateur)
 
 ```C runnable
 #include <stdio.h>
